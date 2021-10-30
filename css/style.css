@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Domine', serif;
+}
+
+/* NAVBAR SECTION */
+
+span{
+    font-style: italic;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+header ul li a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+a {  
+    color: black;
+    margin:10px 0 10px 0;
+    font-size: 50px;
+    padding:10px 20px;
+    text-decoration: none;
+    background-color: rgb(66, 180, 180);
+}
+
+a:hover{
+    color: rgb(164, 207, 207);
+}
+
+nav{   
+    display: contents;
+    justify-content: space-between;
+    width:100%;
+}
+
+ul{
+    display: inline-flex;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+ ul li a{
+    font-family:'Domine', serif;
+    color: rgb(66, 180, 180);
+    display: flex;
+}
+
+.top-images{
+    background-position:center;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: stretch;
+    margin:0 0 20px 0;
+    background-size: cover;
+    background: url("../assets/images/programming.webp") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+
+}
+
+
+.avatar{
+    padding:30px auto 30px 30px;
+    margin:20px 0 30px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
