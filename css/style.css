@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding:0;
 }
 
 body{
@@ -79,6 +81,76 @@ ul{
     position: relative;
     z-index: 1;
 }
+
+/* ABOUT ME SECTION */
+
+.about-container{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    margin:30px auto 30px 200px;
+    }
+
+h2{
+    color:black;
+    font-size: 40px;
+    font-family:'Domine', serif;
+    margin:0 0;
+    padding:20px;
+}
+
+p{
+    max-width: 70%;
+    padding:10px;
+    margin:10px;
+}
+ 
+
+/* SECTION WORK */
+
+ .main-site img{
+     max-width: 90%;
+    padding-left: 30px;
+ }
+
+ .main-site{
+    border-left: solid 3px black;
+ }
+ .work-images{
+     display:flex;
+     flex: auto;
+     justify-content:flex-start;
+     padding:30px 100px 20px 0;
+     margin-left: px;
+ }
+ .main-site a{
+     /* position: absolute;
+     margin-bottom: 10px;
+     display:flex;
+     justify-content: center; */
+     width:20%;
+     font-size:20px;
+     padding:20px auto;
+     z-index: 1;
+    margin-left: 0px;
+     
+ }
+
+ h2{
+     margin-right: 0;
+     display: flex;
+     justify-content: right;
+ }
+
+
+
+
+
+
+ 
+
+
+
 
 
 
