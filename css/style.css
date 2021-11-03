@@ -217,7 +217,7 @@ position: absolute;
 
  h3{
      background-color:#E8E1D9 ;
-     margin: 10px 20px;
+     margin: 10px 25px;
  }
 
  footer p a{
@@ -235,7 +235,7 @@ position: absolute;
      gap:20px;
      font-size: 20px;
      padding-bottom: 50px;
-     border-left: solid 4px black;
+     border-left: solid 3px black;
  }
  .contact-info a{
      color: black;
@@ -252,16 +252,34 @@ position: absolute;
  @media screen and (max-width:768px) {
      header{
          display:inline-block;
-         flex-direction: column;
-         justify-content: flex-start;
-
+         flex-direction:row;
+         justify-content: center;
+         background-color: black;
      }
 
-    nav ul li{
-         display: block;
+     header a{
+         max-width:100%;
+         display: flex;
+         justify-content: center;
+     }
+
+     .avatar img{
+         width:100px;
+     }
+
+     ul{
+         display: inline-block;
+         flex-wrap: wrap;
+         justify-content: center;
+         padding:5px auto 5px auto;
+         margin:0 auto;
+     }
+
+     li a{
+         display: inline-block;
+         flex-wrap: wrap;
          flex-direction: column;
-         align-items: flex-start;
-         justify-content: left;
+         justify-items: center; 
      }
 
     .top-images{
