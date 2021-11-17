@@ -1,8 +1,9 @@
-/* * {
-    box-sizing: border-box;
+* {
+    /* box-sizing: border-box; */
     margin: 0;
     padding:0;
-} */
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Domine', serif;
@@ -16,6 +17,7 @@ span{
 }
 
 header{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -91,7 +93,7 @@ ul{
     display: flex;
     flex: auto;
     justify-content: space-between;
-    margin:30px auto 30px 200px;
+    /* margin:30px auto 30px 200px; */
     }
 
  h2{
@@ -130,7 +132,7 @@ position: absolute;
 .site-one{
     display: flex;
     flex-direction: row;
-    margin-left:450px;
+    /* margin-left:450px; */
     margin-top: 30px;
     width: 80%;
     justify-content: flex-end;
@@ -145,12 +147,14 @@ position: absolute;
 
 
 .link-images{
+    width: 100%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:flex-start;
     gap:30px;
-    margin-left:250px;
+    /* margin-left:250px; */
+    margin-bottom: 550px;
 }
 
 .drumKit-link a{
@@ -160,14 +164,17 @@ position: absolute;
 }
 
 .drumKit-link img{
-    width:600px;
-   height: 450px;
-   margin:50px 10px 20px 0;
-   display:flex;
-   flex-wrap: wrap;
-   justify-content: flex-start;
-   margin-top: 50px;
-   border:solid 4px rgb(66, 180, 180);row-gap: 20px;
+
+    width: 80%;
+    /* width:600px;
+    height: 450px; */
+    margin:50px 10px 20px 0;
+    /* display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+    /* margin-top: 50px; */
+    border:solid 4px rgb(66, 180, 180);
+    row-gap: 20px;
 }
 
 .drumKit-link p{
@@ -244,9 +251,9 @@ position: absolute;
 
  .rights p{
      font-size: 16px;
-     color:#CB2B1B9;
+     color: rgb(129, 129, 129);
      text-align: center;
-     margin:20px auto;
+     margin: 20px auto;
  }
 
  @media screen and (max-width:768px) {
@@ -254,7 +261,6 @@ position: absolute;
          display:inline-block;
          flex-direction:row;
          justify-content: center;
-         background-color: black;
      }
 
      header a{
@@ -317,10 +323,22 @@ position: absolute;
     .contact-info a{
         max-height: 100%;
     }
-
-
-
  }
+
+@media screen and (max-width:575px) {
+    .link-images, .images-container{
+        width:100px;
+        padding:10px auto;
+        margin:10px auto;
+    }
+    .link-images{
+        display:inline-block ;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+    
 
 
 
