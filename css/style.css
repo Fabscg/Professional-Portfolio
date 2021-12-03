@@ -1,5 +1,4 @@
 * {
-    /* box-sizing: border-box; */
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -7,7 +6,7 @@
 
 body{
     font-family: 'Domine', serif;
-    background-color: #E8E1D9;
+    background-color: #E8E1D9!important;
 }
 
 /* NAVBAR SECTION */
@@ -89,11 +88,12 @@ ul{
 
 /* ABOUT ME SECTION */
 
-.about-container{
-    display: flex;
-    flex: auto;
-    justify-content: space-between;
-    /* margin:30px auto 30px 200px; */
+.about-container p{
+    border-left: solid black;
+}
+
+#about-me{
+   float: right;
     }
 
  h2{
@@ -102,12 +102,13 @@ ul{
     font-family:'Domine', serif;
     margin:0 0;
     padding:20px;
+   
 }
 
 p{
     max-width: 70%;
     padding:10px;
-    margin:10px;
+    margin:20px auto 30px auto;
 }
  
 
@@ -124,8 +125,6 @@ position: absolute;
    display: flex;
    flex-direction:row;
    justify-content: flex-end;
-   /* padding-left:250px;
-   padding-top: 50px; */
 
 }
 
@@ -166,13 +165,7 @@ position: absolute;
 .drumKit-link img{
 
     width: 80%;
-    /* width:600px;
-    height: 450px; */
     margin:50px 10px 20px 0;
-    /* display:flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; */
-    /* margin-top: 50px; */
     border:solid 4px rgb(66, 180, 180);
     row-gap: 20px;
 }
@@ -256,6 +249,13 @@ position: absolute;
      margin: 20px auto;
  }
 
+ @media screen and (max-width:980px){
+     #about-me{
+         float: unset;
+         text-align: center;
+     }
+ } 
+
  @media screen and (max-width:768px) {
      header{
          display:inline-block;
@@ -291,13 +291,17 @@ position: absolute;
     .top-images{
        max-width: 100%;
     }
-    .about-container{
-        display:block;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-        height:100%;
-        margin:20px auto 20px auto;
+    .about-container p{
+        text-align: center;
+       
+    }
+    #about-me{
+        float: unset;
+        text-align: center;
+    }
+
+    .about-container p{
+        
     }
 
     .link-images{
