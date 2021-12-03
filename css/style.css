@@ -39,11 +39,10 @@ header a, h3 {
     margin:10px 0 10px 0;
     font-size: 50px;
     text-decoration: none;
-
 }
 
 a:hover{
-    color: rgb(164, 207, 207);
+    color: rgb(164, 207, 207)!important;
 }
 
 nav{   
@@ -55,14 +54,18 @@ nav{
 ul{
     display: flex;
     font-size: 20px;
-    padding: 20px 50px 30px;
+    padding: 20px 50px 20px;
     gap:30px;
-}
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    }
  ul li a{
     font-family:'Domine', serif;
     color: rgb(66, 180, 180);
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .top-images{
@@ -94,20 +97,20 @@ ul{
 
 #about-me{
    float: right;
+   margin-right: 0;
     }
 
- h2{
+ div h2{
     color:black;
     font-size: 40px;
     font-family:'Domine', serif;
     margin:0 0;
     padding:20px;
-   
 }
 
 p{
-    max-width: 70%;
-    padding:10px;
+    max-width: 100%;
+    padding:20px 50px 20px 50px;
     margin:20px auto 30px auto;
 }
  
@@ -165,7 +168,7 @@ position: absolute;
 .drumKit-link img{
 
     width: 80%;
-    margin:50px 10px 20px 0;
+    margin:50px 10px 10px 0;
     border:solid 4px rgb(66, 180, 180);
     row-gap: 20px;
 }
@@ -206,40 +209,34 @@ position: absolute;
 /* SECTION CONTACT ME */
 
  footer{
-     font-size:30px;
-     background-color:#E8E1D9 ;
-     display: flex;
-     flex-wrap: wrap;
-     flex: row;
-     justify-content:flex-start ;
-     margin-left: 200px;
+   
  }
 
- h3{
+ h2{
      background-color:#E8E1D9 ;
-     margin: 10px 25px;
+     margin-top:0;
+     font-size: 20px;
+     font-weight: bold;
  }
 
  footer p a{
-   display: flex;
-   flex-direction: row;
    align-content: center;
    justify-content: center;
    color:black;
  }
 
  .contact-info{
-     display:flex;
-     flex: row;
-     justify-content: center;
      gap:20px;
      font-size: 20px;
-     padding-bottom: 50px;
-     border-left: solid 3px black;
+     border-left: solid 2px black;
+     padding-right: 50px;
  }
  .contact-info a{
      color: black;
-     margin-left: 20px;
+     margin-left: 0;
+     text-decoration: none;
+     padding-left: 50px;
+     
  }
 
  .rights p{
@@ -254,6 +251,13 @@ position: absolute;
          float: unset;
          text-align: center;
      }
+     .about-container p{
+         border-left: none;
+     }
+     footer{
+         text-align: center;
+     }
+    
  } 
 
  @media screen and (max-width:768px) {
@@ -311,11 +315,7 @@ position: absolute;
         align-items: center;
         margin-left: 0;
     }
-    .footer{
-        display: block;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+    
 
     .contact-info{
         display:inline-block;
@@ -326,6 +326,11 @@ position: absolute;
 
     .contact-info a{
         max-height: 100%;
+    }
+
+    .contact-info a{
+        padding-left:25px;
+        font-size: 15px;
     }
  }
 
@@ -339,6 +344,11 @@ position: absolute;
         display:inline-block ;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .contact-info a{
+        display:block;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
     }
 
 }
