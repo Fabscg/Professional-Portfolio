@@ -123,8 +123,9 @@ color: black;
 width:100%;
 }
 
-h2 #work{
-    margin-right: 0;
+#work{
+    margin-right:30px;
+    float: right;
 }
 
 .container-top{
@@ -134,7 +135,6 @@ h2 #work{
 .site-one{
     display: flex;
     flex-direction: row;
-    /* margin-left:450px; */
     margin-top: 30px;
     width: 80%;
     justify-content: flex-end;
@@ -160,7 +160,8 @@ h2 #work{
     background-color: rgb(66, 180, 180);
     position: absolute;
     margin-bottom: 0;
-    float:left;
+    text-align: center;
+    padding:5px 10px 5px 10px;
 }
 
 
@@ -219,6 +220,7 @@ h2 #work{
      font-size: 20px;
      border-left: solid 2px black;
      padding-right: 50px;
+     padding-top: 20px;
  }
  .contact-info a{
      color: black;
@@ -243,6 +245,11 @@ h2 #work{
      .about-container p{
          border-left: none;
      }
+
+    div #work{
+        float: unset;
+        text-align: center;
+    }
 
      .container-top{
          text-align: center;
@@ -299,25 +306,6 @@ h2 #work{
         text-align: center;
     }
 
-    .about-container p{
-        
-    }
-
-    .link-images{
-        display: inline-block;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .site-link img{
-        width:90%;
-        margin:20px 30px 20px 30px;
-        text-align: center;
-    }
-    
-
     .contact-info a{
         max-height: 100%;
     }
@@ -329,22 +317,19 @@ h2 #work{
  }
 
 @media screen and (max-width:575px) {
-    .link-images, .images-container{
-        width:100px;
-        padding:10px auto;
-        margin:10px auto;
-    }
-    .link-images{
-        display:inline-block ;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
-
+  .drumKit-link{
+      text-align: center;
+  }
+   
     .contact-info a{
-        display:block;
+        display: inline-flex;
         flex-wrap: wrap;
         padding-bottom: 20px;
+    }
+
+    div .site-link{
+        width: 100%;
     }
 
 }
