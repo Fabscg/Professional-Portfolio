@@ -1,10 +1,14 @@
+
+
 * {
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
 
-body{
+
+
+* body{
     font-family: 'Domine', serif;
     background-color: #E8E1D9!important;
 }
@@ -13,6 +17,8 @@ body{
 
 span{
     font-style: italic;
+    font-family: 'Comforter', 'cursive' !important;
+    font-weight: bolder;
 }
 
 header{
@@ -26,12 +32,14 @@ header{
 header ul li a{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: black;
     font-size: 20px;
 }
-header a, h3 {
+
+header a h3{
     background-color: rgb(66, 180, 180);
+    font-family: 'Domine', serif;
+    font-weight: bold;
 }
 
  header a{  
@@ -39,6 +47,10 @@ header a, h3 {
     margin:10px 0 10px 0;
     font-size: 50px;
     text-decoration: none;
+    background-color:rgb(66, 180, 180) ;
+    font-family: 'Domine', serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 a:hover{
@@ -49,6 +61,8 @@ nav{
     display: contents;
     justify-content: space-between;
     width:100%;
+    font-family: "'Domine', serif" !important;
+    font-weight: 'bolder'!default;
 }
 
 ul{
@@ -61,10 +75,10 @@ ul{
     justify-content: center;
     }
  ul li a{
-    font-family:'Domine', serif;
+    /* font-family:'Domine', serif; */
     color: rgb(66, 180, 180);
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 0;
 }
 
@@ -198,9 +212,6 @@ width:100%;
 
 /* SECTION CONTACT ME */
 
- footer{
-   
- }
 
  h2{
      background-color:#E8E1D9 ;
@@ -273,6 +284,7 @@ width:100%;
          max-width:100%;
          display: flex;
          justify-content: center;
+         font-family: 'Domine', serif ;
      }
 
      .avatar img{
@@ -280,15 +292,11 @@ width:100%;
      }
 
      ul{
-         display: inline-block;
-         flex-wrap: wrap;
-         justify-content: center;
-         padding:5px auto 5px auto;
          margin:0 auto;
      }
 
      li a{
-         display: inline-block;
+         display: block;
          flex-wrap: wrap;
          flex-direction: column;
          justify-items: center; 
@@ -317,7 +325,18 @@ width:100%;
  }
 
 @media screen and (max-width:575px) {
+    ul{
+        display: inline-block;
+        flex-wrap: wrap;
+        margin:0 auto;
+    }
 
+    li a{
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+       justify-content: left; 
+    }
   .drumKit-link{
       text-align: center;
   }
