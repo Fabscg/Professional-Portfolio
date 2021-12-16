@@ -11,8 +11,15 @@
 - CSS
 - Bootstrap
 
+# Information
 
-![Fabi's Potfolio](./assets/images/Fabs-potfolio.png)
+* Fabiola C. Gamboa
+* [Github](https://github.com/Fabskickass/Professional-Portfolio)
+* [Email](fabiscg79@gmail.com)
+
+
+
+![Fabi's Potfolio](./assets/images/Fabs-portfolio.png)
 
 ![Phone's Mock-up](./assets/images/smartphone-design.png)
 

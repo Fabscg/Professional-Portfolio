@@ -20,6 +20,10 @@ span{
     font-family: 'Comforter', 'cursive' !important;
     font-weight: bolder;
 }
+.title-description{
+    font-size: 16px;
+    padding:0 5px 0;
+}
 
 header{
     width: 100%;
