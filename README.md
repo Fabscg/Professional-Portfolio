@@ -19,7 +19,7 @@
 
 
 
-![Fabi's Potfolio](./assets/images/Fabs-portfolio.png)
+![Fabi's Portfolio](./assets/images/Fabs-portfolio.png)
 
 ![Phone's Mock-up](./assets/images/smartphone-design.png)
 
