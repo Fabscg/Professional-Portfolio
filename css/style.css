@@ -13,6 +13,15 @@
     background-color: #E8E1D9!important;
 }
 
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section{
+    display: flex
+    
+    
+
+    
+;
+}
+
 /* NAVBAR SECTION */
 
 span{
