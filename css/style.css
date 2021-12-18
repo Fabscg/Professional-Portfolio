@@ -14,7 +14,7 @@
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section{
-    display: flex
+    display: flex !important
     
     
 
@@ -33,7 +33,7 @@ span{
 
 header{
     width: 100%;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
