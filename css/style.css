@@ -231,10 +231,10 @@ width:100%;
    align-content: center;
    justify-content: center;
    color:black;
+   
  }
 
  .contact-info{
-     gap:20px;
      font-size: 20px;
      border-left: solid 2px black;
      padding-top: 20px;
@@ -243,7 +243,7 @@ width:100%;
      color: black;
      margin-left: 0;
      text-decoration: none;
-     padding-left: 50px;   
+     padding-left: 50px;
  }
 
  .rights p{
@@ -273,6 +273,7 @@ width:100%;
      }
      footer{
          text-align: center;
+         padding-left: 0;
      }
  } 
 
@@ -347,6 +348,11 @@ width:100%;
         display: inline-flex;
         flex-wrap: wrap;
         padding-bottom: 20px;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .contact-info{
+        border-style: none;
     }
 
     div .site-link{
