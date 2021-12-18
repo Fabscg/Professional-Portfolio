@@ -294,13 +294,12 @@ width:100%;
      .avatar img{
          width:100px;
      }
-
      ul{
          margin:0 auto;
      }
 
      li a{
-         display: block;
+         display: flex;
          flex-wrap: wrap;
          flex-direction: column;
          justify-items: center; 
