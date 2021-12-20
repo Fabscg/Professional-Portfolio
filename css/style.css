@@ -13,14 +13,6 @@
     background-color: #E8E1D9!important;
 }
 
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section{
-    display: flex !important
-    
-    
-
-    
-;
-}
 
 /* NAVBAR SECTION */
 
@@ -59,8 +51,8 @@ header a{
     text-decoration: none;
     background-color:rgb(66, 180, 180) ;
     font-family: 'Domine', serif;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right:20px;
 }
 
 a:hover{
@@ -89,10 +81,8 @@ ul{
     padding-right:30px;
     }
  ul li a{
-    /* font-family:'Domine', serif; */
     color: rgb(66, 180, 180);
     display: flex;
-    /* justify-content: space-between; */
     margin-bottom: 0;
 }
 
@@ -263,6 +253,35 @@ width:100%;
  }
 
  @media screen and (max-width:980px){
+
+    header a{
+        width:100%;
+        display: inline-block;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+
+    }
+
+    header ul li a{
+        display: inline-block;
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    ul li a{
+        display: inline-flex;
+        justify-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+     
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section{
+    display: flex !important;
+}
      #about-me{
          float: unset;
          text-align: center;
@@ -280,6 +299,10 @@ width:100%;
          text-align: center;
          width:100%;
      }
+
+     .contact-info a{
+         border-style:none;
+     }
      footer{
          text-align: center;
          padding-left: 0;
@@ -289,29 +312,30 @@ width:100%;
  @media screen and (max-width:768px) {
      header{
          display:inline-block;
+         flex-wrap: wrap;
          flex-direction:row;
          justify-content: center;
      }
 
      header a{
-         max-width:100%;
-         display: flex;
-         justify-content: center;
+        /* max-width:100%; */
+         display:block;
+         justify-content: flex-start;
          font-family: 'Domine', serif ;
+         text-align: center;
      }
 
      .avatar img{
          width:100px;
      }
      ul{
-         margin:0 auto;
+         margin-right:0;
      }
 
      li a{
          display: flex;
          flex-wrap: wrap;
          flex-direction: column;
-         justify-items: center; 
      }
 
     .top-images{
@@ -336,17 +360,22 @@ width:100%;
  }
 
 @media screen and (max-width:575px) {
-    ul{
+
+    header a{
+        text-align: center;
+        font-size: 40px;
+    }
+    ul {
         display: inline-block;
         flex-wrap: wrap;
-        margin:0 auto;
+        margin-left: 0;
     }
 
     li a{
         display: inline-block;
         flex-wrap: wrap;
         flex-direction: column;
-       justify-content: left; 
+        text-align: left;
     }
   .drumKit-link{
       text-align: center;
