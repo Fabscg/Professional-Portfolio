@@ -8,9 +8,9 @@
 
 
 
-* body{
+body{
     font-family: 'Domine', serif;
-    background-color: #E8E1D9!important;
+    background-color: rgb(74, 150, 198)!important;
 }
 
 
@@ -28,18 +28,16 @@ header{
     display: flex !important;
     flex-direction: row;
     justify-content: space-between;
-    background-color: black;
 }
 
 header ul li a{
     display: flex;
     flex-direction: row;
-    background-color: black;
+    /* background-color: black; */
     font-size: 20px;
 }
 
 header a h3{
-    background-color: rgb(66, 180, 180);
     font-family: 'Domine', serif;
     font-weight: bold;
 }
@@ -49,7 +47,7 @@ header a{
     margin:10px 0 10px 0;
     font-size: 50px;
     text-decoration: none;
-    background-color:rgb(66, 180, 180) ;
+    background-color: rgb(74, 150, 198)!important;
     font-family: 'Domine', serif;
     padding-left: 20px;
     padding-right:20px;
@@ -60,7 +58,6 @@ a:hover{
 }
 
 nav{   
-  
     display: contents;
     justify-content: space-between;
     width:100%;
@@ -80,8 +77,9 @@ ul{
     align-items:center;
     padding-right:30px;
     }
- ul li a{
-    color: rgb(66, 180, 180);
+
+ ul li{
+    color: rgb(74, 150, 198)!important;
     display: flex;
     margin-bottom: 0;
 }
@@ -124,6 +122,7 @@ ul{
     font-family:'Domine', serif;
     margin:0 0;
     padding:20px;
+    background-color: rgb(74, 150, 198)!important;
 }
 
 p{
@@ -135,10 +134,15 @@ p{
 
 /* SECTION WORK */
 
+
+
+
 .link-images a{
 font-size: 20px;
 color: black;
-width:100%;
+width:50%;
+text-decoration: none;
+padding-bottom: 10px;
 }
 
 #work{
@@ -161,69 +165,82 @@ width:100%;
 
 
 
-.drumKit-link {
-  position: relative;
- 
+
+.icon-github{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin-top: 0;
 }
 
-.drumKit-link img{
-    position: relative;
-    float: right;
-    width: 90%;
-    border:solid 4px rgb(66, 180, 180);
-    
-}
-
-.drumKit-link p{
-    background-color: rgb(66, 180, 180);
-    position: absolute;
-    margin-bottom: 0;
+.card-title{
     text-align: center;
-    padding:5px 10px 5px 10px;
+    margin:10px auto 20px;
+    font-family: 'Comforter', 'cursive' !important;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
-.drumKit-link img:hover{
-    opacity: 0.5;
+.card-text, p{
+    color:black;
 }
 
-.images-container{
- padding:30px 20px 50px;
+
+ 
+img{
+    width:400px;
 }
 
-.site-link{
-    position:relative;
-}
+/* .site-link{
+    margin: 100px 0 0 20px;
+    width: 100%;
+} */
 
 .site-link img{
-    width:90%;
-    margin:20px 30px 20px 30px;
-    border:solid 4px rgb(66, 180, 180);
+    width:100%;
+    margin:20px auto 20px;
+    border-radius: 15px 15px;;
 }
-
 
 .site-link img:hover{
     opacity: 0.5;
 }
 
-.site-link p{
-    position:absolute;
-    float: left;
-    background-color:rgb(66, 180, 180);  
-    padding:5px 10px 5px 10px;
+.site-link  p{
+    text-align: center;
+    margin-top: 0;
 }
+
+.card-body{
+    background-color: rgb(74, 150, 198)!important;
+    padding: 0 10px 0;
+    width:100%;
+    border-radius: 5px 5px 15px 15px;
+}
+
+
+
 
 
 /* SECTION CONTACT ME */
 
 
  h2{
-     background-color:#E8E1D9 ;
      font-size: 20px;
      font-weight: bold;
  }
  footer{
     padding-left: 50px;
+    padding-top: 50px;
+    
+ }
+
+ .card-body{
+     margin-block:auto;
  }
 
  footer p a{
@@ -247,10 +264,14 @@ width:100%;
 
  .rights p{
      font-size: 16px;
-     color: rgb(129, 129, 129);
+     color: rgb(17, 5, 5);
      text-align: center;
      margin: 20px auto;
  }
+
+ .icon-terminal{
+    color:rgb(128, 226, 36);
+}
 
  @media screen and (max-width:980px){
 
@@ -278,6 +299,8 @@ width:100%;
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    h2
      
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section{
     display: flex !important;
@@ -297,7 +320,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
      .container-top{
          text-align: center;
-         width:100%;
      }
 
      .contact-info a{
@@ -307,6 +329,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
          text-align: center;
          padding-left: 0;
      }
+    
  } 
 
  @media screen and (max-width:768px) {
@@ -377,16 +400,15 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
         flex-direction: column;
         text-align: left;
     }
-  .drumKit-link{
-      text-align: center;
-  }
+  
    
     .contact-info a{
-        display: inline-flex;
+        display:flexbox;
         flex-wrap: wrap;
         padding-bottom: 20px;
-        justify-content: center;
-        padding-left: 20px;
+        justify-content:space-between;
+        padding-left: 10px;
+        width:16px;
     }
     .contact-info{
         border-style: none;
@@ -395,6 +417,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     div .site-link{
         width: 100%;
     }
+   
 
 }
     
