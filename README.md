@@ -19,8 +19,8 @@
 
 
 
-![Fabi's Portfolio](./assets/images/Fabs-portfolio.png)
+![Fabi's Portfolio](./assets/images/portfolio.png)
 
-![Phone's Mock-up](./assets/images/smartphone-design.png)
+![Phone's Mock-up](./assets/images/Fabi'sPortfolio.png)
 
 
