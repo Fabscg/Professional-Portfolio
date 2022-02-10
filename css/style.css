@@ -52,13 +52,12 @@ header a{
     margin:10px 0 10px 0;
     font-size: 50px;
     text-decoration: none;
-    /* background-color: rgb(74, 150, 198)!important; */
     font-family: 'Domine', serif;
     padding-left: 20px;
     padding-right:20px;
 }
 
-a:hover{
+ a:hover{
     color: rgb(164, 207, 207)!important;
     text-decoration: none;
 }
@@ -287,6 +286,7 @@ span
     header a{
         width:100%;
         display: inline-block;
+        text-decoration: none;
     }
 
     header{
