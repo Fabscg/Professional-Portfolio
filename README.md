@@ -21,6 +21,6 @@
 
 ![Fabi's Portfolio](./assets/images/portfolio.png)
 
-![Phone's Mock-up](./assets/images/Fabi'sPortfolio.png)
+![Phone's Mock-up](./assets/images/Fabs-portfolio.png)
 
 
