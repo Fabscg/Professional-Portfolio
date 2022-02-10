@@ -16,6 +16,12 @@ body{
 
 /* NAVBAR SECTION */
 
+.page-title{
+    background-color: black;
+    color: rgb(74, 150, 198)!important;
+    border-radius: 0 50px 50px 0;
+}
+
 span{
     font-style: italic;
     font-family: 'Comforter', 'cursive' !important;
@@ -33,7 +39,6 @@ header{
 header ul li a{
     display: flex;
     flex-direction: row;
-    /* background-color: black; */
     font-size: 20px;
 }
 
@@ -47,7 +52,7 @@ header a{
     margin:10px 0 10px 0;
     font-size: 50px;
     text-decoration: none;
-    background-color: rgb(74, 150, 198)!important;
+    /* background-color: rgb(74, 150, 198)!important; */
     font-family: 'Domine', serif;
     padding-left: 20px;
     padding-right:20px;
@@ -276,6 +281,9 @@ span
 
  @media screen and (max-width:980px){
 
+    .page-title{
+        border-radius: unset;
+    }
     header a{
         width:100%;
         display: inline-block;
