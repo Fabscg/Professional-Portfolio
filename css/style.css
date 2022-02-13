@@ -169,7 +169,27 @@ padding-left: 20px;
     justify-content: flex-end;
 
 }
-span
+
+/* TECHNOLOGIES MASTERED */
+.technologies{
+    padding:30px 40px 20px;
+}
+
+.icons{
+    font-size: 25px;
+    padding:20px 0;
+}
+
+.icon-top{
+    padding:10px 10px;
+}
+
+.icon-handlebars{
+    width:50px;
+    height: 50px;
+}
+
+
 
 /* ICON GITHUB FOR THE IMAGES */
 .icon-github{
@@ -189,6 +209,10 @@ span
     margin:10px auto 20px;
     font-family: 'Comforter', 'cursive' !important;
     font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 20px;
 }
 
 
@@ -197,7 +221,6 @@ span
     font-family: 'Domine', serif;
     font-size: 14px;
     padding:20px 20px;
-    text-align: left;
 }
 
 
@@ -321,6 +344,20 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
      .about-container p{
          border-left: none;
      }
+     .technologies{
+         text-align: center;
+         padding:0 0;
+     }
+
+     
+     .icon-top{
+         padding:0 10px;
+     }
+
+     .icon-handlebars{
+         width:30px;
+         height: 30px;
+     }
 
     div #work{
         float: unset;
@@ -381,6 +418,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
         float: unset;
         text-align: center;
     }
+   
 
     .contact-info a{
         max-height: 100%;
