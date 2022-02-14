@@ -27,6 +27,9 @@ span{
     font-family: 'Comforter', 'cursive' !important;
     font-weight: bolder;
 }
+.navbar-brand{
+    font-size:40px !important;
+}
 
 
 header{
@@ -40,6 +43,7 @@ header ul li a{
     display: flex;
     flex-direction: row;
     font-size: 20px;
+    color:black!important;
 }
 
 header a h3{
@@ -62,12 +66,18 @@ header a{
     text-decoration: none;
 }
 
+.navbar-collapse{
+    background-color: rgb(74, 150, 198)!important;
+}
+
+
 nav{   
     display: contents;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width:100%;
     font-family: "'Domine', serif" !important;
     font-weight: 'bolder!default';
+    background-color: rgb(74, 150, 198)!important;
 }
 
 ul{
@@ -75,7 +85,7 @@ ul{
     font-size: 20px;
     flex-wrap: wrap;
     margin: 0;
-    padding: 20px 50px 20px;
+    /* padding: 20px 30px 20px; */
     gap:30px;
     list-style-type: none;
     justify-content: center;
@@ -97,7 +107,7 @@ ul{
     justify-content: stretch;
     margin:0 0 20px 0;
     background-size: cover;
-    background: url("../assets/images/programming.webp") no-repeat center center fixed; 
+    background: url("../assets/images/coding.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
 }
 
@@ -387,38 +397,19 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
  } 
 
  @media screen and (max-width:768px) {
-     header{
-         display:inline-block;
-         flex-wrap: wrap;
-         flex-direction:row;
-         justify-content: center;
-     }
 
      header a{
-        /* max-width:100%; */
          display:block;
          justify-content: flex-start;
          font-family: 'Domine', serif ;
          text-align: center;
      }
 
-     .nav{
-         padding:10px 0 10px;
-     }
 
      .avatar img{
          width:100px;
      }
-     ul{
-         margin-right:0;
-     }
-
-     li a{
-         display: flex;
-         flex-wrap: wrap;
-         flex-direction: column;
-     }
-
+   
     .top-images{
        max-width: 100%;
     }
@@ -442,24 +433,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
  }
 
 @media screen and (max-width:575px) {
-
-    header a{
-        text-align: center;
-        font-size: 40px;
-    }
-    ul {
-        display: inline-block;
-        flex-wrap: wrap;
-        margin-left: 0;
-    }
-
-    li a{
-        display: inline-block;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: left;
-    }
-  
+   
    
     .contact-info a{
         display:flexbox;
