@@ -20,7 +20,10 @@ body{
     background-color: black;
     color: rgb(74, 150, 198)!important;
     border-radius: 0 50px 50px 0;
+    font-weight:bold;
 }
+
+
 
 span{
     font-style: italic;
@@ -318,7 +321,9 @@ padding-left: 20px;
 
     .page-title{
         border-radius: unset;
+        width:100%;
     }
+
     header a{
         width:100%;
         display: inline-block;
@@ -335,7 +340,7 @@ padding-left: 20px;
     header ul li a{
         display: inline-block;
         font-size: 16px;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     ul li a{
@@ -405,6 +410,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
          text-align: center;
      }
 
+    
+
 
      .avatar img{
          width:100px;
@@ -449,6 +456,9 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
     div .site-link{
         width: 100%;
+    }
+    .fa, .fab, .fad, .fal, .far, .fas{
+        font-variant: all-petite-caps;
     }
 
 }
