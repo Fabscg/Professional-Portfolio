@@ -39,14 +39,15 @@ header{
     width: 100%;
     display: flex !important;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 header ul li a{
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     font-size: 20px;
     color:black!important;
+    justify-content: flex-end;
 }
 
 header a h3{
@@ -114,6 +115,61 @@ ul{
     -webkit-background-size: cover;
 }
 
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    opacity: 0;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.label{
+    cursor: pointer;
+    margin-left:20px;
+    position: relative;
+    background-color: rgb(47, 43, 43);
+    top:2px;
+    left:2px;
+width:50px;
+height: 25px;
+border-radius: 50px;
+align-items: center;
+justify-content: space-between;
+display:flex;
+padding:5px;
+}
+
+.fa-sun{
+    color:rgb(220, 193, 75);
+}
+
+.fa-moon{
+    color:#FFF89A;
+}
+
+
+.ball{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50px;
+    width:22px;
+    height: 22px;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+
+body.dark {
+    background-color: rgb(35, 35, 35)!important;
+}
+
+body.dark p, h2 {
+    color:white;
+}
 
 .avatar img{
     width:200px;
@@ -293,7 +349,7 @@ padding-left: 20px;
  }
 
  .contact-info{
-     font-size: 20px;
+     /* font-size: 20px; */
      border-left: solid 2px black;
      padding-top: 20px;
  }
@@ -328,6 +384,11 @@ padding-left: 20px;
         width:100%;
         display: inline-block;
         text-decoration: none;
+    }
+
+    ul{
+        gap:unset;
+        text-align: left;
     }
 
     header{
@@ -410,8 +471,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
          text-align: center;
      }
 
-    
-
 
      .avatar img{
          width:100px;
@@ -437,6 +496,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
         padding-left:25px;
         font-size: 15px;
     }
+   
  }
 
 @media screen and (max-width:575px) {
@@ -457,10 +517,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     div .site-link{
         width: 100%;
     }
-    .fa, .fab, .fad, .fal, .far, .fas{
-        font-variant: all-petite-caps;
-    }
-
 }
     
     
