@@ -152,7 +152,7 @@ padding:5px;
 }
 
 
-.ball{
+/* .ball{
     position: absolute;
     background-color: #fff;
     border-radius: 50px;
@@ -163,13 +163,17 @@ padding:5px;
   }
 
 
-body.dark {
-    background-color: rgb(35, 35, 35)!important;
+body.dark{
+    background-color: rgb(59, 55, 55))!important;
+}
+body.card-text{
+    background-color: rgb(59, 55, 55)
 }
 
 body.dark p, h2 {
     color:white;
-}
+} */ */
+
 
 .avatar img{
     width:200px;
