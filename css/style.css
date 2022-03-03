@@ -115,64 +115,7 @@ ul{
     -webkit-background-size: cover;
 }
 
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font-family: inherit;
-    opacity: 0;
-    font-size: inherit;
-    line-height: inherit;
-    -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
 
-
-.label{
-    cursor: pointer;
-    margin-left:20px;
-    position: relative;
-    background-color: rgb(47, 43, 43);
-    top:2px;
-    left:2px;
-width:50px;
-height: 25px;
-border-radius: 50px;
-align-items: center;
-justify-content: space-between;
-display:flex;
-padding:5px;
-}
-
-.fa-sun{
-    color:rgb(220, 193, 75);
-}
-
-.fa-moon{
-    color:#FFF89A;
-}
-
-
-/* .ball{
-    position: absolute;
-    background-color: #fff;
-    border-radius: 50px;
-    width:22px;
-    height: 22px;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-
-
-body.dark{
-    background-color: rgb(59, 55, 55))!important;
-}
-body.card-text{
-    background-color: rgb(59, 55, 55)
-}
-
-body.dark p, h2 {
-    color:white;
-} */ 
 
 
 .avatar img{
